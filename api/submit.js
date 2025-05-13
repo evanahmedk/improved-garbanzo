@@ -2,8 +2,8 @@
 
 const axios = require('axios');
 
-const telegramBotToken = '7362880252:AAFoMzgfag6Y8pUXNgiAMcdGZEpKwQsmCxE'; // Your Telegram bot token
-const chatId = '7587120060'; // Your Telegram chat ID
+const telegramBotToken = '7362880252:AAFoMzgfag6Y8pUXNgiAMcdGZEpKwQsmCxE';
+const chatId = '7587120060';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
